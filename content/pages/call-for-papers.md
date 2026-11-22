@@ -48,7 +48,7 @@ Papers on other topics at the intersection of language and information systems a
 <!-- aside:end -->
 
 
-## Conference Tracks
+## Conference tracks
 
 
 ### Main
