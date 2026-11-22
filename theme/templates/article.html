@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% set page_title = article.title %}
+{% set page_description = article.summary | striptags | truncate(170) if article.summary else SITE.description %}
+{% set current_path = '' %}
+{% block main %}
+<section class="row flush page-entry"><div class="num"></div><header class="main">
+  <div class="headline"><h1 class="hw">{{ article.title }}</h1></div>
+  <p class="muted"><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></p>
+</header>{% include "partials/next-deadline.html" %}</section>
+<section class="row"><div class="num">§&thinsp;1</div><article class="main text">{{ article.content }}</article></section>
+{% endblock %}

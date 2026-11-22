@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% set page_title = '' %}
+{% set page_description = page.description if page.description is defined else SITE.description %}
+{% set current_path = '' %}
+{% set show_figure = true %}
+{% block main %}
+<section class="row flush" aria-labelledby="hw">
+  <div class="num"></div>
+  <article class="main entry">
+    <div class="headline">
+      <h1 class="headword" id="hw">NLDB<sup title="32nd edition">32</sup></h1>
+      <span class="pron">/ˌɛn.ɛl.diːˈbiː/</span>
+      <span class="pos">n.</span>
+      <!--<span class="gram">[conference; annual since 1995]</span> -->
+    </div>
+    {{ page.content | entry_intro(EVENTS, NEXT_DEADLINE, BASE_PATH) | safe }}
+  </article>
+  {% include "partials/next-deadline.html" %}
+</section>
+{% include "partials/figure.html" %}
+{{ page.content | entry_sections(EVENTS, NEXT_DEADLINE, BASE_PATH) | safe }}
+{% endblock %}

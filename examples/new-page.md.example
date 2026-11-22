@@ -1,0 +1,25 @@
+Title: Sponsors
+Slug: sponsors
+Template: page
+Description: NLDB 2027 sponsor information.
+Headword: sponsor
+Pos: n.
+Definition: A person or organisation that supports the conference.
+ShowDeadline: yes
+
+## Sponsors {#sponsors}
+
+Thanks to our **conference sponsors**. Details will appear here.
+
+<!-- aside:start -->
+
+For enquiries, please [contact us](/registration/).
+
+<!-- aside:end -->
+
+## Become a sponsor {#become-a-sponsor}
+
+Add more content with ordinary **Markdown** formatting.
+
+- A benefit
+- Another benefit

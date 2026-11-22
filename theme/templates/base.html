@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page_title %}{{ page_title }} · {% endif %}{{ SITENAME }}, {{ SITE.city }}</title>
+  <meta name="description" content="{{ page_description or SITE.description }}">
+  {% if SITE.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page_title %}{{ page_title }} · {% endif %}{{ SITENAME }}, {{ SITE.city }}">
+  <meta property="og:description" content="{{ page_description or SITE.description }}">
+  <meta name="theme-color" content="#F6F4EE">
+  <link rel="icon" href="{{ BASE_PATH }}assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ BASE_PATH }}assets/css/site.css">
+  {# To use your own licensed fonts, uncomment the next line and supply the files yourself. #}
+  {# <link rel="stylesheet" href="{{ BASE_PATH }}assets/css/fonts-local.example.css"> #}
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+{% include "partials/header.html" %}
+<main id="content" class="page">
+{% block main %}{% endblock %}
+</main>
+{% include "partials/footer.html" %}
+<script type="application/json" id="deadline-data">{{ EVENTS_JSON | safe }}</script>
+<script src="{{ BASE_PATH }}assets/js/site.js" defer></script>
+{% if show_figure %}<script src="{{ BASE_PATH }}assets/js/fig1.js" defer></script>{% endif %}
+</body>
+</html>

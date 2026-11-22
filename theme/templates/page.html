@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% set page_title = page.title %}
+{% set page_description = page.description if page.description is defined else SITE.description %}
+{% set current_path = page.url.lstrip('/') %}
+{% set show_figure = false %}
+{% block main %}
+<section class="row flush page-entry">
+  <div class="num"></div>
+  <header class="main">
+    <div class="headline">
+      <h1 class="hw">{{ page.headword if page.headword is defined else page.title | lower }}</h1>
+      <span class="pron">{{ page.pron | safe if page.pron is defined else '' }}</span>
+      <span class="pos">{{ page.pos | safe if page.pos is defined else 'n.' }}</span>
+      <span class="gram">{{ page.grammar | safe if page.grammar is defined else '' }}</span>
+    </div>
+    {% if page.definition is defined %}<p class="def">{{ page.definition | safe }}</p>{% endif %}
+    {{ page.content | entry_intro(EVENTS, NEXT_DEADLINE, BASE_PATH) | safe }}
+  </header>
+  {% if page.showdeadline is defined and page.showdeadline == 'yes' %}
+    {% include "partials/next-deadline.html" %}
+  {% elif page.headnote is defined %}
+    <aside class="side">{{ page.headnote | safe }}</aside>
+  {% else %}
+    <aside class="side"></aside>
+  {% endif %}
+</section>
+{{ page.content | entry_sections(EVENTS, NEXT_DEADLINE, BASE_PATH) | safe }}
+{% endblock %}

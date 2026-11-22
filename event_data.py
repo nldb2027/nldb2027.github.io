@@ -1,0 +1,41 @@
+"""Conference calendar data. Edit here, then run `make build`.
+
+For an unconfirmed date, keep `date: None` and a textual placeholder.
+Deadline ISO timestamps use 23:59 in AoE (UTC-12).
+"""
+
+EVENTS = [{'id': 'submission',
+  'label': 'Paper submission',
+  'date': '2027-02-19',
+  'displayDate': '19 February 2027',
+  'deadline': '2027-02-19T23:59:00-12:00',
+  'provisional': False},
+ {'id': 'notification',
+  'label': 'Notification of acceptance',
+  'date': '2027-03-26',
+  'displayDate': '26 March 2027',
+  'provisional': False},
+ {'id': 'camera-ready',
+  'label': 'Camera-ready papers',
+  'date': '2027-04-09',
+  'displayDate': '9 April 2027',
+  'deadline': '2027-04-09T23:59:00-12:00',
+  'provisional': False},
+ {'id': 'author-registration',
+  'label': 'Author registration',
+  'date': '2027-04-23',
+  'displayDate': '23 April 2027',
+  'deadline': '2027-04-23T23:59:00-12:00',
+  'provisional': False},
+ {'id': 'early-registration',
+  'label': 'Early registration closes',
+  'date': '2027-05-07',
+  'displayDate': '7 May 2027',
+  'deadline': '2027-05-07T23:59:00-12:00',
+  'provisional': False},
+ {'id': 'conference',
+  'label': 'Conference',
+  'date': None,
+  'placeholder': "16-18",
+  'displayDate': 'June 2027',
+  'provisional': False}]

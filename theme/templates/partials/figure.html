@@ -1,0 +1,29 @@
+<section class="row figrow">
+<div class="num"></div>
+<figure class="fig wide" id="fig1">
+<div class="fig-scroll">
+<div class="fig-body">
+<svg aria-hidden="true" class="fig-svg"></svg>
+<div class="ex ex-a">
+<span class="exnum">(1a)</span>
+<span aria-label="Which authors submitted papers to NLDB in 2027?" class="sent"><span class="tok" data-a="pi">Which</span> <span class="tok" data-a="auth">authors</span> <span class="tok" data-a="subm">submitted</span> <span class="tok" data-a="subm">papers</span> <span class="tok">to</span> <span class="tok" data-a="nldb">NLDB</span> <span class="tok">in</span> <span class="tok" data-a="year">2027</span><span class="tok">?</span></span>
+</div>
+<div class="ex ex-b">
+<span class="exnum">(1b)</span>
+<span aria-label="projection on name, of the selection where venue is NLDB and year is 2027, of Authors joined with Submissions" class="ra"><span class="rt" data-r="pi">π</span><sub><span class="attr">name</span></sub> ( <span class="rt">σ</span><sub><span class="attr">venue</span> = <span class="rt" data-r="nldb">‘NLDB’</span> ∧ <span class="attr">year</span> = <span class="rt lining" data-r="year">2027</span></sub> ( <span class="rt rel" data-r="auth">Authors</span> ⋈ <span class="rt rel" data-r="subm">Submissions</span> ) )</span>
+</div>
+</div>
+</div>
+<figcaption><span class="sc">fig. 1.</span> A question (1a), its dependency parse above it, and the relational query it denotes (1b). 
+<!--The lines between them are an alignment: the problem this conference has been working on since 1995. In SQL, (1b) reads: -->
+</figcaption>
+<!--
+<pre class="sql">SELECT DISTINCT a.name
+FROM   authors a
+JOIN   submissions s
+  ON   s.author_id = a.id
+WHERE  s.venue = 'NLDB'
+  AND  s.year  = 2027;</pre>
+</figure>
+-->
+</section>

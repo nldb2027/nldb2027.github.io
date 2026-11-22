@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% set page_title = 'Authors' %}
+{% set current_path = '' %}
+{% block main %}
+<section class="row flush page-entry"><div class="num"></div><div class="main">
+<h1 class="hw">{{ page_title }}</h1>
+{% if articles is defined and articles %}<ul class="plain">{% for article in articles %}
+<li><a href="{{ BASE_PATH }}{{ article.url }}">{{ article.title }}</a></li>
+{% endfor %}</ul>{% endif %}
+</div></section>
+{% endblock %}

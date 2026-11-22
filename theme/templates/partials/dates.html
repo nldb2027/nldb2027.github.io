@@ -1,0 +1,9 @@
+<ol class="dates{% if date_class %} {{ date_class }}{% endif %}">
+{% for event in EVENTS %}
+  <li{% if NEXT_DEADLINE and NEXT_DEADLINE.id == event.id %} class="next"{% endif %}{% if event.get("deadline") %} data-deadline="{{ event.get("deadline") }}"{% endif %}>
+    <span class="ev">{{ event.label }}</span><span class="tag sc">next</span><span class="lead"></span>
+    {% if event.get("date") %}<time class="d" datetime="{{ event.get("date") }}">{{ event.displayDate }}{% if event.provisional %}<span class="dagger" title="Provisional">†</span>{% endif %}</time>
+    {% else %}<span class="d"><span class="ph">{{ event.get("placeholder", "date") }}</span> {{ event.displayDate }}{% if event.provisional %}<span class="dagger" title="Provisional">†</span>{% endif %}</span>{% endif %}
+  </li>
+{% endfor %}
+</ol>

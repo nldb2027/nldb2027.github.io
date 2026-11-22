@@ -1,0 +1,8 @@
+{% if NEXT_DEADLINE %}
+<aside class="side deadline" aria-label="Next deadline" data-next-note>
+  <span class="sc label">next deadline</span>
+  <span class="when">{{ NEXT_DEADLINE.displayDate }}{% if NEXT_DEADLINE.provisional %}<span class="dagger" title="Provisional">†</span>{% endif %}</span>
+  <span class="what">{{ NEXT_DEADLINE.label }}, 23:59 AoE</span>
+  <span class="count" data-deadline="{{ NEXT_DEADLINE.deadline }}"></span>
+</aside>
+{% endif %}

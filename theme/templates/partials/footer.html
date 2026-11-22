@@ -1,0 +1,17 @@
+<footer class="colophon">
+  <div class="page">
+    <div class="row">
+      <div class="num" aria-hidden="true">.</div>
+      <div class="main">
+        <p><span class="sc">{{ SITE.name | lower }}.</span> {{ SITE.footerSummary | safe }}</p>
+        <p><span class="sc">colophon.</span> {{ SITE.colophon | safe }}</p>
+      </div>
+      <div class="side">
+        <p>Organised by {% if SITE.organizer %}{{ SITE.organizer }}{% else %}<span class="ph">university</span>{% endif %}.<br>
+        Contact: {% if SITE.contactEmail %}<a href="mailto:{{ SITE.contactEmail }}">{{ SITE.contactEmail }}</a>{% else %}<span class="ph">email</span>{% endif %}</p>
+        <!-- <p>Last updated {{ SITE.lastUpdated }}.</p> -->
+        {% if SITE.draft %}<p class="sc draft">draft · placeholder content</p>{% endif %}
+      </div>
+    </div>
+  </div>
+</footer>
