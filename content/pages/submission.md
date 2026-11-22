@@ -11,7 +11,7 @@ ShowDeadline: yes
 
 - Use Springer's [LNCS template, LaTeX or Word](https://link.springer.com/series/558/information-for-authors-and-editors), without changing margins or font sizes.
 - Submit a single <span class="sc">pdf</span>.
-- Respect the page limit for your paper type; references and appendices count towards it.
+- Respect the page limit for your paper type, including references and appendices.
 
 <table class="table">
 <thead><tr><th scope="col">Type</th><th class="n" scope="col">Maximum length</th></tr></thead>
