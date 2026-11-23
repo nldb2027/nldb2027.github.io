@@ -16,9 +16,6 @@ Since 1995, the NLDB conference has brought together researchers, industry pract
 The constant flux of changes in NLP technologies is increasingly impacting many aspects of society, from everyday life and education to research and healthcare. These developments highlight the need for scientific discussions of their capabilities, limitations, and broader societal implications. Scientific forums such as NLDB play an essential role in disseminating knowledge and exchanging research findings that incorporate the changes brought by information systems into society.
 
 NLDB 2027 aims to provide a forum for discussing recent advances and emerging challenges in NLP, with particular emphasis on open-weight and open-source systems, evaluation benchmarks, model alignment, neural representations, and bias. We welcome novel, unpublished contributions that advance our understanding of these topics and their applications to information systems.
-
-
-
 </span>
 
 
@@ -67,17 +64,31 @@ All deadlines are 23:59 AoE (UTC−12): if the day has not yet ended anywhere on
 1. Big Data and Scalability
 
 
-<p class="cta" style="margin-top:1.4rem"><a href="/call-for-papers/">Read the full call for papers</a></p>
+## Conference tracks
 
-<!-- aside:start -->
 
-<span class="sc">main track.</span> Novel and significant research on theory, algorithms, applications, architectures and resources; surveys and discussion papers.
+### Main
 
-<span class="sc">industry track.</span> Industrial-strength NLP work, case studies, reports on barriers to adoption, experience reports.
+The main track solicits novel and significant research contributions addressing theoretical aspects, algorithms, applications, architectures, resources, and other aspects of NLP, as well as survey and discussion papers. We welcome work describing original and replicable research showing evidence of significant contribution to the NLP community.
 
-<span class="sc">length.</span> full papers up to 15 pages, short papers up to 11 pages, demo papers up to 6 pages, in <span class="sc">lncs</span> format, references included.
+### Industry
 
-<!-- aside:end -->
+The industry track covers all aspects of innovative commercial or industrial-strength NLP technologies in order to showcase the state of adoption. It welcomes contributions about case studies of success stories, discussion reports of obstacles that stand in the way of adoption of NLP technologies, and experience reports in applying recent research advances to relevant industry problems. We encourage results and ideas from companies small and large.
+
+## Paper types and length {#papers}
+
+<table class="table">
+<thead><tr><th scope="col">Type</th><th class="n" scope="col">Maximum length</th></tr></thead>
+<tbody>
+<tr><td>Full paper</td><td class="n">15 pages</td></tr>
+<tr><td>Short paper</td><td class="n">11 pages</td></tr>
+<tr><td>Demo paper</td><td class="n">6 pages</td></tr>
+</tbody>
+</table>
+
+Page limits include references and appendices. Papers must use Springer’s <span class="sc">lncs</span> format and be submitted as <span class="sc">pdf</span>; submissions that do not follow the format may be rejected without review. The programme committee may accept a full paper as a short paper.
+
+
 
 ## Bucharest {#bucharest}
 

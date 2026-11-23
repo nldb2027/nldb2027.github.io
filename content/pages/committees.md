@@ -82,10 +82,10 @@ Definition: International Conference on Applications of Natural Language to Info
 
 ## Programme committee {#programme-committee}
 
-
 - Ana Sabina Uban, University of Bucharest
 - Ana-Maria Bucur, Università della Svizzera Italiana
 - Anca Dinu, University of Bucharest
+- Ciprian Ceaușescu, University of Bucharest
 - Claudiu Creanga, University of Bucharest
 - Constantin Orăsan, University of Surrey
 - Cornelia Caragea, University of Illinois Chicago
