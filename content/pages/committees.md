@@ -48,25 +48,25 @@ Definition: International Conference on Applications of Natural Language to Info
 ## Local organising committee {#local-committee}
 <div class="photos">
   <figure class="photo">
-    <img src="" alt="Rareș Roșcan" width="600" height="450" loading="lazy"> <figcaption>
+    <img src="/assets/img/committees/rares.png" alt="Rareș Roșcan" width="600" height="450" loading="lazy"> <figcaption>
       <span class="sc">Rareș Roșcan</span><br>
       <span class="muted">University of Bucharest</span>
     </figcaption>
   </figure>
   <figure class="photo">
-    <img src="" alt="Elena Carmen Fecioru" width="600" height="450" loading="lazy"> <figcaption>
+    <img src="/assets/img/committees/brandusa.jpeg" alt="Elena Carmen Fecioru" width="600" height="450" loading="lazy"> <figcaption>
       <span class="sc">Elena Brândușa Fecioru</span><br>
       <span class="muted">University of Bucharest</span>
     </figcaption>
   </figure>
   <figure class="photo">
-    <img src="" alt="Oleksandra Kuvshynova" width="600" height="450" loading="lazy"> <figcaption>
+    <img src="/assets/img/committees/sasha.jpeg" alt="Oleksandra Kuvshynova" width="600" height="450" loading="lazy"> <figcaption>
       <span class="sc">Oleksandra Kuvshynova</span><br>
       <span class="muted">Romanian Academy</span>
     </figcaption>
   </figure>
   <figure class="photo">
-    <img src="" alt="Mircea Mihai Marin" width="600" height="450" loading="lazy"> <figcaption>
+    <img src="/assets/img/committees/mircea.jpeg" alt="Mircea Mihai Marin" width="600" height="450" loading="lazy"> <figcaption>
       <span class="sc">Mircea Mihai Marin</span><br>
       <span class="muted">University of Bucharest</span>
     </figcaption>
