@@ -60,7 +60,7 @@ Definition: International Conference on Applications of Natural Language to Info
     </figcaption>
   </figure>
   <figure class="photo">
-    <img src="" alt="Ioana Grigore" width="600" height="450" loading="lazy"> <figcaption>
+    <img src="/assets/img/committees/ioana.jpeg" alt="Ioana Grigore" width="600" height="450" loading="lazy"> <figcaption>
       <span class="sc">Ioana Grigore</span><br>
       <span class="muted">University of Bucharest</span>
     </figcaption>
@@ -93,6 +93,7 @@ Definition: International Conference on Applications of Natural Language to Info
 - Cristian Danescu-Niculescu-Mizil, Cornell University
 - Dan Oneață, University Politehnica of Bucharest and Bitdefender
 - Ella Rabinovich, Academic College of TA-Yaffo
+- Ioana Buhnila, Université de Strasbourg
 - Marcos Zampieri, George Mason University
 - Marius Dumitran, University of Bucharest
 - Paolo Rosso, Universitat Politècnica de València
