@@ -60,9 +60,9 @@ Definition: International Conference on Applications of Natural Language to Info
     </figcaption>
   </figure>
   <figure class="photo">
-    <img src="/assets/img/committees/sasha.jpeg" alt="Oleksandra Kuvshynova" width="600" height="450" loading="lazy"> <figcaption>
-      <span class="sc">Oleksandra Kuvshynova</span><br>
-      <span class="muted">Romanian Academy</span>
+    <img src="" alt="Ioana Grigore" width="600" height="450" loading="lazy"> <figcaption>
+      <span class="sc">Ioana Grigore</span><br>
+      <span class="muted">University of Bucharest</span>
     </figcaption>
   </figure>
   <figure class="photo">
@@ -72,11 +72,12 @@ Definition: International Conference on Applications of Natural Language to Info
     </figcaption>
   </figure>
   <figure class="photo">
-    <img src="" alt="Ioana Grigore" width="600" height="450" loading="lazy"> <figcaption>
-      <span class="sc">Ioana Grigore</span><br>
-      <span class="muted">University of Bucharest</span>
+    <img src="/assets/img/committees/sasha.jpeg" alt="Oleksandra Kuvshynova" width="600" height="450" loading="lazy"> <figcaption>
+      <span class="sc">Oleksandra Kuvshynova</span><br>
+      <span class="muted">Romanian Academy</span>
     </figcaption>
   </figure>
+
 
 </div>
 
