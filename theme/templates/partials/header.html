@@ -1,19 +1,25 @@
 <header class="runhead">
-  <a class="mark" href="{{ BASE_PATH }}" aria-label="{{ SITE.name }}, home">
-    <!--
-    <svg viewBox="0 0 52 30" aria-hidden="true">
-      <path d="M9 13 C 11 1, 41 1, 43 13" fill="none" stroke="#B3301C" stroke-width="1.3"/>
-      <path d="M40.2 10.6 L43 14.2 L45.2 10.2 Z" fill="#B3301C"/>
-      <text x="9" y="28" text-anchor="middle" font-family="Libertinus Serif, serif" font-size="13" font-weight="600" fill="#1C1A17">NL</text>
-      <text x="43" y="28" text-anchor="middle" font-family="Libertinus Serif, serif" font-size="13" font-weight="600" fill="#1C1A17">DB</text>
-    </svg> {{ SITE.name | lower }} -->
-    <img src="/assets/img/logo3.png" width="100"  loading="lazy"> 
-    · <span class="sc"><span class="city"> {{ SITE.city | lower }}</span><span class="sc"> · NLDB 16-18 June 2027</span></span>
-  </a>
-  <br>
-  <nav aria-label="Main">
-    {% for item in SITE.navigation %}
-      <a href="{{ BASE_PATH }}{{ item.path }}"{% if current_path == item.path %} aria-current="page"{% endif %}>{{ item.text }}</a>
-    {% endfor %}
-  </nav>
+  <div class="runhead-inner">
+    <div class="runhead-brand">
+      <a class="mark" href="{{ BASE_PATH }}" aria-label="{{ SITE.name }}, home">
+        <img src="{{ BASE_PATH }}assets/img/logo3.png" width="1306" height="624" alt="">
+        <span class="mark-text">
+          <span class="mark-title">{{ SITE.name }}</span>
+          <span class="city">{{ SITE.city }} · 16–18 June 2027</span>
+        </span>
+      </a>
+      <nav aria-label="Main">
+        {% for item in SITE.navigation %}
+        <a href="{{ BASE_PATH }}{{ item.path }}"{% if current_path == item.path %} aria-current="page"{% endif %}>{{ item.text }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </div>
+  <figure class="runhead-city">
+    <img src="https://admitere.unibuc.ro/wp-content/uploads/2023/09/unibuc-admitere-homepage-banner3-1.webp" width="5000" height="3333" alt="The historic University Palace of the University of Bucharest, seen from University Square" decoding="async" fetchpriority="high">
+   <!-- <figcaption>
+      <span class="city-caption">University Palace · Bucharest</span>
+       <span class="city-credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Palatul_Universit%C4%83%C5%A3ii_din_Bucure%C5%9Fti.jpg">University of Bucharest / Mircea Popa</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · cropped for display</span> 
+    </figcaption>-->
+  </figure>
 </header>
