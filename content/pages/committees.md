@@ -92,7 +92,7 @@ Definition: International Conference on Applications of Natural Language to Info
 - Cornelia Caragea, University of Illinois Chicago
 - Cristian Danescu-Niculescu-Mizil, Cornell University
 - Dan Oneață, University Politehnica of Bucharest and Bitdefender
-- Ella Rabinovich, Academic College of TA-Yaffo
+- Ella Rabinovich, Academic College of Tel Aviv–Yaffo 
 - Ioana Buhnila, Université de Strasbourg
 - Marcos Zampieri, George Mason University
 - Marius Dumitran, University of Bucharest
@@ -104,3 +104,4 @@ Definition: International Conference on Applications of Natural Language to Info
 - Steven D. Bedrick, Oregon Health and Science University School of Medicine
 - Tiberiu Boroș, Research Institute For Artificial Intelligence, Romanian Academy
 - Verginica Barbu Mititelu, Research Institute For Artificial Intelligence, Romanian Academy
+- Yusuke Fukazawa, Sophia University
