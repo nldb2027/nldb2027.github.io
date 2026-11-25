@@ -410,7 +410,7 @@ ul.plain, ol.plain { list-style: none; padding: 0; margin: 0 0 1em; }
   .mark-title { font-size: 1.45rem; }
   .runhead .mark .city { font-size: .85rem; }
   .runhead nav { gap: .2rem 1rem; }
-  .runhead-city img { height: 190px; object-position: 50% 70%; }
+  .runhead-city img { height: 86px; object-position: 0% 60%; }
   .runhead-city figcaption { padding: .35rem 1rem; }
 }
 @media print {
