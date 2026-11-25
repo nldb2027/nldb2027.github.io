@@ -100,6 +100,7 @@ Definition: International Conference on Applications of Natural Language to Info
 - Preslav Nakov, Mohamed bin Zayed University of Artificial Intelligence
 - Roxana Boriceanu, University of Bucharest
 - Sara Tonelli, Fondazione Bruno Kessler
+- Shamsuddeen Muhammad, Imperial College London
 - Shira Wein, University of South Florida
 - Steven D. Bedrick, Oregon Health and Science University School of Medicine
 - Tiberiu Boroș, Research Institute For Artificial Intelligence, Romanian Academy
