@@ -83,26 +83,27 @@ Definition: International Conference on Applications of Natural Language to Info
 
 ## Programme committee {#programme-committee}
 
-- Ana Sabina Uban, University of Bucharest
-- Ana-Maria Bucur, Università della Svizzera Italiana
-- Anca Dinu, University of Bucharest
+- [Ana Sabina Uban](https://nlp.unibuc.ro/people/anauban.html), University of Bucharest
+- [Ana-Maria Bucur](https://bucuram.github.io/), Università della Svizzera Italiana
+- [Anca Dinu](https://nlp.unibuc.ro/people/anca.html), University of Bucharest
 - Ciprian Ceaușescu, University of Bucharest
-- Claudiu Creanga, University of Bucharest
-- Constantin Orăsan, University of Surrey
-- Cornelia Caragea, University of Illinois Chicago
-- Cristian Danescu-Niculescu-Mizil, Cornell University
-- Dan Oneață, University Politehnica of Bucharest and Bitdefender
-- Ella Rabinovich, Academic College of Tel Aviv–Yaffo 
-- Ioana Buhnila, Université de Strasbourg
-- Marcos Zampieri, George Mason University
+- [Claudiu Creanga](https://nlp.unibuc.ro/people/claudiu-creanga.html), University of Bucharest
+- [Constantin Orăsan](https://dinel.org.uk/), University of Surrey
+- [Cornelia Caragea](https://www.cs.uic.edu/~cornelia/), University of Illinois Chicago
+- [Cristian Danescu-Niculescu-Mizil](https://www.cs.cornell.edu/~cristian/), Cornell University
+- [Dan Oneață](https://doneata.bitbucket.io/), University Politehnica of Bucharest and Bitdefender
+- [Ella Rabinovich](https://ellarabi.github.io/), Academic College of Tel Aviv–Yaffo 
+- [Ioana Buhnila](https://perso.atilf.fr/ibuhnila/), Université de Strasbourg
+- [Maja Popovic](https://www.adaptcentre.ie/experts/maja-popovic/), ADAPT Centre, Dublin City University
+- [Marcos Zampieri](https://www.marcoszampieri.com/), George Mason University
 - Marius Dumitran, University of Bucharest
-- Paolo Rosso, Universitat Politècnica de València
-- Preslav Nakov, Mohamed bin Zayed University of Artificial Intelligence
+- [Paolo Rosso](https://personales.upv.es/prosso/), Universitat Politècnica de València
+- [Preslav Nakov](https://mbzuai.ac.ae/academics/faculty-directory/preslav-nakov), Mohamed bin Zayed University of Artificial Intelligence
 - Roxana Boriceanu, University of Bucharest
-- Sara Tonelli, Fondazione Bruno Kessler
-- Shamsuddeen Muhammad, Imperial College London
-- Shira Wein, University of South Florida
-- Steven D. Bedrick, Oregon Health and Science University School of Medicine
-- Tiberiu Boroș, Research Institute For Artificial Intelligence, Romanian Academy
-- Verginica Barbu Mititelu, Research Institute For Artificial Intelligence, Romanian Academy
-- Yusuke Fukazawa, Sophia University
+- [Sara Tonelli](https://dh.fbk.eu/author/sara/), Fondazione Bruno Kessler
+- [Shamsuddeen Muhammad](https://shmuhammadd.github.io/), Imperial College London
+- [Shira Wein](https://shirawein.github.io/), University of South Florida
+- [Steven D. Bedrick](https://www.bedrick.org/), Oregon Health and Science University School of Medicine
+- [Tiberiu Boroș](https://www.racai.ro/en/about-us/racai-staff/dr-tiberiu-boros/), Research Institute For Artificial Intelligence, Romanian Academy
+- [Verginica Barbu Mititelu](https://www.racai.ro/en/about-us/racai-staff/verginica-barbu-mititelu/), Research Institute For Artificial Intelligence, Romanian Academy
+- [Yusuke Fukazawa](https://www.yusukefukazawa.com/), Sophia University
