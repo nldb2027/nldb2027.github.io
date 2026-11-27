@@ -92,6 +92,7 @@ Definition: International Conference on Applications of Natural Language to Info
 - [Cornelia Caragea](https://www.cs.uic.edu/~cornelia/), University of Illinois Chicago
 - [Cristian Danescu-Niculescu-Mizil](https://www.cs.cornell.edu/~cristian/), Cornell University
 - [Dan Oneață](https://doneata.bitbucket.io/), University Politehnica of Bucharest and Bitdefender
+- [Eduard C. Dragut](https://cis.temple.edu/~edragut/), Temple University
 - [Ella Rabinovich](https://ellarabi.github.io/), Academic College of Tel Aviv–Yaffo 
 - [Ioana Buhnila](https://perso.atilf.fr/ibuhnila/), Université de Strasbourg
 - [Maja Popovic](https://www.adaptcentre.ie/experts/maja-popovic/), ADAPT Centre, Dublin City University
