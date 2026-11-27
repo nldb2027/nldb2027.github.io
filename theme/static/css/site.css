@@ -3,7 +3,7 @@
 
 
 :root {
-  --paper: #F6F4EE;
+  --paper: #F6F4EE69; /* #F6F4EE;*/
   --ink: #1C1A17;
   --ink-2: #48433C;
   --grey: #756E63;
@@ -350,7 +350,7 @@ ul.plain, ol.plain { list-style: none; padding: 0; margin: 0 0 1em; }
   padding: 0;
   border-top: 3px solid var(--rubric);
   border-bottom: 3px double var(--rule);
-  background: #f4efe4;
+  background: #F6F4EE69; /*#f4efe4;*/
 }
 .runhead-inner {
   max-width: 75rem;
